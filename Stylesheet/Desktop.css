@@ -1,0 +1,152 @@
+p{
+    font-size: 1.2500em;font-family:'Times New Roman', Times, serif;
+}
+.title{
+    text-indent:7%;color:darkblue;margin-left:5%;font-size:30px;
+}
+.logo{
+    margin-left:5%;height:70px;width:200px;float:left;
+ }
+.bookmarks{
+    color:#fff;
+    background-color:blue;
+    border:none;
+    font-size: 1.2500em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius:5px;
+    margin-left:1%;
+    padding:2px 20px;
+}
+h2{
+    color:darkblue;
+    font-size:1.500em;
+}
+.img_main{
+    height:450px;width:1000px;margin-left:15%;
+}
+.aligns{
+    margin-left:7%;
+    margin-right:7%;
+}
+.button{
+    margin-left:5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
+    border-radius:10px;
+    border-color: white;
+    padding:5px 20px 5px 20px;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.button:hover{
+    background-color:rgb(5, 5, 178);
+}
+.bar{
+    list-style-type: none;
+    margin-left:5%;
+    margin-top:5px;
+    overflow: hidden;
+    background-color: darkblue;
+    margin-right:5%;
+ }
+ .bartext{
+    display: inline;
+    float: left;
+    color:white;
+    margin-left: 4%;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px;
+    padding: 7px;  
+}
+ .bartext:hover{
+    background-color: rgb(5, 5, 178);
+}
+.bookbtn{
+    color:#ffffff;
+    background-color:darkblue;
+    border-radius:10px;
+    font-size: 20px;
+    border:none;
+    text-align:center;
+    box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25%;
+    padding:0px 20px;
+    height:50px;
+    width:25%;
+}
+.bookbtn:hover{
+    color:white;
+    box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+    background-color:rgb(5, 5, 178);
+}
+.barvert{
+    list-style-type: none;
+    margin-left: 7%;
+    overflow: hidden;
+    margin-right:5px;
+    width:100%;
+ }
+ .bartext:hover{
+    background-color: rgb(5, 5, 178);
+}
+.verttext{
+    width:50%;
+    text-shadow: 2px 2px 4px #000000d8;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10%; 
+}
+.buttons{
+    width:100%;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 196);
+    font-size:20px;
+    font-weight:bold;
+    border:none;
+    box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+    padding:15px 5px;
+    font-family:'Times New Roman', Times, serif;
+ }
+ .buttons:hover{
+    box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+    background-color:rgb(0, 0, 255);
+}
+.textanimate{
+    margin-left:5%;
+    width:90%;
+    margin-right:5%;
+}
+.textanimate p{ font-size:9vw;text-align:center;width:100%;margin: 0px 0px;font-weight:bold;}
+
+
+#cap{ animation-name: capti;animation-duration:5s;animation-iteration-count: infinite;color:#F5D042}
+@keyframes capti{
+    0% {text-transform: lowercase;}
+    90% {text-transform: uppercase;color:white;background-color:#0A174E;;}
+}
+#cap1{ animation-name: capti1;animation-duration:5s;animation-iteration-count: infinite;color:#0A174E}
+@keyframes capti1{
+    0% {text-transform: lowercase;}
+    90% {text-transform: uppercase;color:white;background-color:#F5D042;}
+}
+#fog{ animation-name: capti3;animation-duration:5s;animation-iteration-count: infinite;color:#F5D042}
+@keyframes capti3{
+    0% {background-color:transparent;}
+    90% {background-color:#0A174E;}
+    100% {background-color:transparent;}
+}
+
+#fog2{ animation-name: capti4;animation-duration:5s;animation-iteration-count: infinite;color:#0A174E}
+@keyframes capti4{
+    0% {background-color:transparent;}
+    90% {background-color:#F5D042;}
+    100% {background-color:transparent;}
+}
+#bt{ animation-name: ti;animation-duration:5s;animation-iteration-count: infinite;}
+@keyframes ti{
+    0% {width:25%;background-color:#F5D042;}
+    100% {width:60%;background-color:#0A174E;}
+}
+
+.textanimate:hover #fog::after {content:"verse ";}
+.textanimate span:nth-child(2):after {content:" ";}

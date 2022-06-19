@@ -1,0 +1,347 @@
+p{
+    font-size: 1.2500em;
+    font-family:'Lusitana',serif;
+}
+body{
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+     scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.bookmarks{
+    color:#fff;
+    background-color:blue;
+    border:none;
+    font-size: 1.2500em;
+ font-family:'Lusitana',serif;
+    border-radius:5px;
+    margin-left:3%;
+    padding:2px 20px;
+}
+h2{
+    color:darkblue;
+ font-family:'Lusitana',serif;
+ font-size:1.500em;
+}
+.img_main{
+    height:500px;width:75vw;;margin-left:12vw;margin-right:5vw;
+}
+.bm{
+    display:none;
+}
+.hide2{ display:none; }
+ .barvert{
+    list-style-type: none;
+    margin-left: 7%;
+    overflow: hidden;
+    margin-right:5px;
+    width:100%;
+ }
+ .iframes{
+     margin-right:7%;
+     height:750px;
+     width:100%;
+     border:none;
+ }
+ .verttext{
+     /* display: block; */
+     /* margin-left: 7%; */
+     width:50%;
+     text-shadow: 2px 2px 4px #000000d8;
+     /* background-color: rgba(156, 163, 184, 0.823); */
+ font-family:'Lusitana',serif;
+     /* font-family:Georgia, 'Times New Roman', Times, serif; */
+     padding-bottom: 10%; 
+ }
+ .buttons{
+    width:100%;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 196);
+    font-size:20px;
+    font-weight:bold;
+    border:none;
+    box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+    padding:15px 5px;
+ font-family:'Lusitana',serif;
+
+ }
+ .buttons:hover{
+     color:white;
+    box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+    background-color:rgb(5, 5, 178);
+}
+
+
+ .head{
+     color:rgb(0, 3, 199);
+ font-family:'Lusitana',serif;
+ font-size: 16px;
+   
+     font-weight: bold;
+     
+ }
+ .divframe{
+       
+        display: inline;
+ font-family:'Lusitana',serif;
+ float: left;
+     
+ }
+ .divtext{ 
+     height:320px;
+     display: inline;
+     float: left;
+ font-family:'Lusitana',serif;
+     font-size: 100%;
+     margin-left:1.113%; 
+     text-align: center; }
+    
+.grid1 {
+    display:grid;
+    grid-template-columns:2% 24% 24% 24% 24%  ;
+}
+.grid2 {
+    display:grid;
+    grid-template-columns:2.5% 19% 19% 19% 19% 19% 2.5%;
+}
+
+ .divtext1{
+     height:200px;
+     /* width: 16.668%; */
+     display: inline;
+     float: left;
+ font-family:'Lusitana',serif;
+     text-align: center;
+ }
+
+ .divtext:hover{
+     background-color: rgba(181, 178, 178, 0.492);
+     color: rgb(5, 0, 0);
+     
+ }
+ .divtext1:hover{
+     background-color:  rgba(181, 178, 178, 0.492);
+     color: rgb(0, 0, 0);   
+ }
+ #hide{ display:none; }
+ .hr1{
+     background-color:#1a1aff;
+     width:350px;
+     height:3px;
+     margin-left:17%;
+     text-shadow: 2px 2px black;
+ }
+
+ .button:hover{
+     background-color:rgb(5, 5, 178);
+ } 
+ .aligns{
+     margin-left:7%;
+     margin-right:7%;
+ }
+ .hrt{
+    background-color:blue;
+    width:440px;
+    height:3px;
+    margin-left:7%;
+    text-shadow: 2px 2px black;
+ }
+ .bookbtn{
+     color:#ffffff;
+     background-color:rgb(0,0,196);
+     /* border-radius:10px; */
+     font-size: 20px;
+     border:none;
+     text-align:center;
+     box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 25%;
+     padding:0px 20px;
+     height:50px;
+     width:25%;
+ }
+ .bookbtn:hover{
+     color:white;
+     box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+     background-color:rgb(5, 5, 178);
+ }
+
+ #reset{
+    background-color:darkblue;
+    color:rgb(255, 255, 255);
+    border-color:darkblue;
+    /* font-family: 'Times New Roman', Times, serif; */
+ font-family:'Lusitana',serif;
+
+    font-size:20px;
+    margin-left:3%;
+    box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+    font-weight:bold;
+    height:40px;
+    width:130px;
+}
+#submit{
+    background-color:darkblue;
+    color:rgb(255, 255, 255);
+ font-family:'Lusitana',serif;
+ border-color:darkblue;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size:20px;
+    box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+    font-weight:bold;
+    
+}
+#submit:hover{
+color:white;
+box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+/* background-color:#565555; */
+}
+#reset:hover{
+color:white;
+border-color:darkblue;
+box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+/* background-color:#565555; */
+}
+
+.img_main2{
+    float:right;height:500px;width:500px
+}
+#terms{ 
+    color:blue;
+}
+#terms:hover{ text-decoration: underline;}
+.idiv{display:flex;margin:0% 3%;}
+.idiv2{width:25%;}
+.idiv3{width:75%;}
+.sym1 {
+    /* content: "\25B7"; */
+    font-size:75px;
+    margin-top:189px;
+    border:none;
+    background-color:rgba(255, 255, 255, 0);
+    color:rgba(0, 0, 0, 0.399);
+    left:5vw;
+    position: absolute;
+        }
+    .sym1:hover{
+        color:black;
+    }
+    .sym2 {
+    /* content: "\25B7"; */
+    font-size:75px;
+    margin-top:189px;
+    border:none;
+    background-color:rgba(255, 255, 255, 0);
+    color:rgba(0, 0, 0, 0.399);
+   left:90vw;
+    position: absolute;
+        }
+    .sym2:hover{
+        color:black;
+    }
+
+    .logo{
+        margin-left:5%;height:6vw;width:15vw;float:left;margin-top:1.5%;
+        clip-path: rect(500px,0px,500px,0px);
+     }
+                 .title{
+        text-indent:4%;color:darkblue;
+        font-size:2.5vw;
+        padding-top:2%;
+ /* font-family:'Lusitana',serif; */
+
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    }
+    .bar{
+        list-style-type: none;
+        margin-left:3%;
+        margin-top:5px;
+        overflow: hidden;
+        background-color: darkblue;
+        margin-right:3%;
+        padding-top:0.5vh;
+        padding-bottom:0.5vh;
+     }
+     .bartext{
+         display: inline;
+         text-align: center;
+         color:white;
+         margin-left: 4%;
+ /* font-family:'Lusitana',serif; */
+
+         font-family:'Times New Roman', Times, serif;
+         font-size:1.8vw;
+         margin-top: 1.5%;
+         margin-bottom:1.5%;
+     }
+     .links{
+         text-decoration:none;
+         color:white;
+     }
+     .links:hover{
+         color:rgb(255, 255, 255);
+     }
+     .button{
+         margin-left:1vh;
+         color:rgb(255, 255, 255);
+         background-color: darkblue;
+         /* border-color: white; */
+         padding:0.75vh 3.0303vh;
+         font-size:1.7vw;border:none;
+ /* font-family:'Lusitana',serif; */
+
+         font-family:'Times New Roman', Times, serif;
+     }
+     .button:hover{
+         background-color:rgb(5, 5, 178);
+     }
+     .slideshow{
+         display:inline;
+     }
+
+     .textanimate{
+        margin-left:5%;
+        width:90%;
+        margin-right:5%;
+    }
+    .textanimate{
+        margin-left:5%;
+        width:90%;
+        margin-right:5%;
+    }
+    .textanimate p{ font-size:8vw;text-align:center;width:100%;margin: 0px 0px;font-weight:bold;}
+
+  
+    #cap{ animation-name: capti;animation-duration:5s;animation-iteration-count: infinite;color:#A2A2A1;}
+    @keyframes capti{
+        0% {text-transform: lowercase;}
+        90% {text-transform: uppercase;color:white;background-color:#195190;}
+    }
+    #cap1{ animation-name: capti1;animation-duration:5s;animation-iteration-count: infinite;color:#195190;}
+    @keyframes capti1{
+        0% {text-transform: lowercase;}
+        90% {text-transform: uppercase;color:white;background-color:#A2A2A1;}
+    }
+    #fog{ animation-name: capti3;animation-duration:5s;animation-iteration-count: infinite;color:#A2A2A1;}
+    @keyframes capti3{
+        0% {background-color:transparent;}
+        90% {background-color:#195190;}
+        100% {background-color:transparent;}
+    }
+    
+    #fog2{ animation-name: capti4;animation-duration:5s;animation-iteration-count: infinite;color:#195190;}
+    @keyframes capti4{
+        0% {background-color:transparent;}
+        90% {background-color:#A2A2A1;}
+        100% {background-color:transparent;}
+    }
+    #bt{ animation-name: ti;animation-duration:5s;animation-iteration-count: infinite;}
+    @keyframes ti{
+        0% {width:25%;background-color:#A2A2A1;}
+        100% {width:60%;background-color:#195190;}
+    }
+    
+    .textanimate:hover #fog::after {content:"verse ";}
+    .textanimate span:nth-child(2):after {content:" ";}

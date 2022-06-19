@@ -1,0 +1,156 @@
+body {
+    background-image:url('./Images/Background/WebBackGround.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+body{
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+     scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  .Logdiv {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+  @media (max-width: 767px) {
+    .Logdiv .right {
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    .Logdiv {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center; width: fit-content;
+      align-items: center;
+    }
+    .Logdiv .left{ width: 100%; }
+    .Logdiv .left .ldiv span a {
+        width:auto;
+        margin-left:0%;
+      }
+      .Logdiv .left .ldiv h2 {
+        font-size: 4vh;}
+      .Loginbut{width: 100%;
+        }
+        .return{width: 50%;margin-left:50%;
+          height:7vh; margin-bottom:2%;}
+  }
+  @media (min-width: 768px) {
+    
+    .Logdiv .left{ width: 50%; }
+    .Logdiv .left .ldiv span a {
+        width:50%;
+        margin-left:22.5%;
+      }
+      .Logdiv .left .ldiv h2 {
+        font-size: 7vh;}
+      .Loginbut{width: 50%;
+        margin-left:25%;}
+        .return{width: 100%;
+          height:5vh; margin-bottom:2%;}
+  }
+  .Logdiv div {
+    height: auto;
+  }
+  .Logdiv .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./Images/Background/signupback.png");
+    overflow: hidden;
+    
+  }
+  .Logdiv .left .ldiv {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #1d2282ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .Logdiv .left .ldiv h2 {
+    line-height: 1.3;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .Logdiv .left .ldiv span p {
+    margin-top: 30px;
+    font-weight: 900;
+    
+  }
+  .Logdiv .left .ldiv span a {
+    background: #3b5998;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    /* width:50%;
+    margin-left:15%; */
+    display: block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .Logdiv .left .ldiv span a:nth-child(3) {
+    background: #ff1d1d;
+  }
+  .Logdiv .left .ldiv span a:last-child {
+    background: #1dcaff;
+  }
+  .Logdiv .right {
+    padding: 40px;
+    overflow: hidden;
+  }
+ 
+  .Logdiv .right h5 {
+    font-size: 7vh;
+    line-height: 0;
+    margin-top: 10%;
+    text-align: center;color:darkblue;
+  }
+  .Logdiv .right p {
+    font-size: 14px;
+  }
+  .Logdiv .right .inputs {
+    overflow: hidden;
+  }
+  .Logdiv .right input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+  }
+  
+  .Loginbut {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: block;
+    border: 0;
+    outline: 0;font-weight: bold;
+    box-shadow: 0px 4px 20px 0px rgba(0, 76, 249, 0.514);
+    background: rgb(0,76,249);
+    background: linear-gradient(135deg, rgba(0,76,249,1) 6%, rgba(0,154,250,1) 21%, rgba(0,144,251,1) 47%, rgba(0,100,255,1) 76%, rgba(17,0,255,1) 100%);
+  }
+
+
+ 
