@@ -30,7 +30,7 @@ function tod(){
 function whatsapp(){
     let conf=confirm("Are you sure you want to join our whatsapp via QR CODE");
     if (conf){
-        location.href="C:/Users/Vignesh/Transport Logistics/wa_services.html";
+        location.href="wa_services.html";
     }
     else{
         if (confirm("Are you sure you want to join our whatsapp via Group Link")){
