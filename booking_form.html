@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RePorter Service Booking</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="RePorterJS.js"></script> 
+        <link rel="stylesheet" media="screen and (max-width: 450px)" href="C:\Users\Vignesh\Transport Logistics\mobiledeviceCSS.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px) and (min-width:450px)" href="C:\Users\Vignesh\Transport Logistics\smalldeviceCSS.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="C:\Users\Vignesh\Transport Logistics\RePorter.css">
+        <link rel="icon" href="https://drive.google.com/uc?export=view&id=1mRynLWP5s-Z6o5g8vZbcqk5nHoamXmna">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media  only screen and (max-width:767px) {
+                .div1{
+                width:100%;
+                margin-top:25px;
+                font-size:4vw;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .btnbook{
+                display:flex;flex-direction:column;height: 25vh;margin-left: 0%;justify-content: space-evenly;}
+            body{
+                /* margin:0% 10%; */
+                background-image:url(' https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-04.jpg');
+                background-repeat:no-repeat;
+                background-size: cover;
+            }
+            .ifram{
+                height:130vh;width:100%;border:none;
+            }
+            .div{
+                margin-left:0%;
+                margin-right:0%;
+                margin-top:25px;
+                font-size:5vw;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            }
+            @media  only screen and (min-width:768px){
+                body{
+                margin:0% 10%;
+                background-image:url(' https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-04.jpg');
+                background-repeat:no-repeat;
+                background-size: cover;
+            }
+            .btnbook{
+                display:flex;flex-direction:row;width:60%;margin-left:20%;justify-content: space-between;}
+     
+                .div1{
+                margin-left:20%;
+                margin-right:15%;
+                margin-top:25px;
+                font-size:25px;
+                font-family: 'Times New Roman', Times, serif;}
+            
+            .div{
+                margin-left:25%;
+                margin-right:25%;
+                margin-top:25px;
+                font-size:25px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .ifram{
+                height:150vh;width:90%;border:none;overflow:hidden;
+            }}
+            .bookingsbtn{
+     color:#ffffff;
+     background-color:rgb(0,0,196);
+     /* border-radius:10px; */
+     font-size: 20px;
+     border:none;
+     text-align:center;
+     box-shadow: 0 5px 10px 0 #565555, 0 4px 12px 0 #565555;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-right: 10%;
+     padding:0px 20px;
+     height:60px;
+     width:100%;
+ }
+ .bookingsbtn:hover{
+     color:white;
+     box-shadow: 5px 0 10px 0 #565555,  4px 0 12px 0 #565555;
+     background-color:rgb(5, 5, 178);
+ }
+        </style>
+    </head> 
+    <body >
+       <div class="div">  
+           <h2 style="text-align:center; color:rgb(29, 0, 133);">RePorter Booking Form</h2>
+            <h3 style="text-align:center; color:rgb(8, 0, 37);">Select Packers and Movers Type : </h3> 
+        </div>
+        <div class="btnbook">
+            <a href="house_shifting_booking.html" target="ifram" class="links"> <button type="button"  class="bookingsbtn" > House Shifting Here </button> </a>
+            <a href="car_shifting_booking.html" target="ifram" class="links"> <button type="button"  class="bookingsbtn" > Car Shifting Here </button> </a> 
+            <a href="pet_relocation_booking.html" target="ifram" class="links"> <button type="button" class="bookingsbtn" >Pet Relocation Here </button> </a> 
+      </div>
+       <div class="div1">
+        <iframe src="house_shifting_booking.html" class="ifram" name="ifram" target="_parent" title="packer and movers booking page"></iframe>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Info</title>
+        <script type="text/javascript" src="RePorterJS.js"></script> 
+        <link rel="stylesheet" media="screen and (max-width: 450px)" href="C:\Users\Vignesh\Transport Logistics\mobiledeviceCSS.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px) and (min-width:450px)" href="C:\Users\Vignesh\Transport Logistics\smalldeviceCSS.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="C:\Users\Vignesh\Transport Logistics\RePorter.css">
+        <link rel="icon" href="https://drive.google.com/uc?export=view&id=1mRynLWP5s-Z6o5g8vZbcqk5nHoamXmna">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+        <style>
+            body{
+              background-color:rgb(235, 223, 223);
+              background-image:url(' https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-04.jpg');
+              background-repeat:no-repeat;
+              background-size: cover; 
+             }
+            .textanimate{
+                margin-left:5%;
+                width:90%;
+                margin-right:5%;
+            }
+            .textanimate p{ font-size:9vw;text-align:center;width:100%;margin: 0px 0px;font-weight:bold;}
+        
+          
+            #cap{ animation-name: capti;animation-duration:5s;animation-iteration-count: infinite;color:#A2A2A1;}
+            @keyframes capti{
+                0% {text-transform: lowercase;}
+                90% {text-transform: uppercase;color:white;background-color:#195190;}
+            }
+            #cap1{ animation-name: capti1;animation-duration:5s;animation-iteration-count: infinite;color:#195190;}
+            @keyframes capti1{
+                0% {text-transform: lowercase;}
+                90% {text-transform: uppercase;color:white;background-color:#A2A2A1;}
+            }
+            #fog{ animation-name: capti3;animation-duration:5s;animation-iteration-count: infinite;color:#A2A2A1;}
+            @keyframes capti3{
+                0% {background-color:transparent;}
+                90% {background-color:#195190;}
+                100% {background-color:transparent;}
+            }
+            
+            #fog2{ animation-name: capti4;animation-duration:5s;animation-iteration-count: infinite;color:#195190;}
+            @keyframes capti4{
+                0% {background-color:transparent;}
+                90% {background-color:#A2A2A1;}
+                100% {background-color:transparent;}
+            }
+            #bt{ animation-name: ti;animation-duration:5s;animation-iteration-count: infinite;}
+            @keyframes ti{
+                0% {width:25%;background-color:#A2A2A1;}
+                100% {width:60%;background-color:#195190;}
+            }
+            
+            .textanimate:hover #fog::after {content:"verse ";}
+            .textanimate span:nth-child(2):after {content:" ";}
+          </style>
+         
+    </head>
+    <body>
+        <img class="logo" src="C:\Users\Vignesh\Downloads\20220525_184523 (1).png" alt="porter" title="I'm Porter" ></img>
+       <p class="title">
+                 <b style="margin-right:2%;">Tamil Nadu's Largest Logistics Network </b><span id="hide"><br></span>
+                <button type="button" class="button"  ><b><a class="links" style="color:white;" href="sign_up.html">Sign Up</a></b></button>
+             <button type="button"  class="lbutton button" ><b><a class="links" style="color:white;" href="login.html">Login</a></b></button></p>
+            
+            <p id="hide" ><br><br></p>
+
+    <ul class="bar">
+        <a class="links" href="trans_log_1.html" > <li class="bartext"><b>Home</b></li></a>
+        <a class="links" href="packers_movers.html" ><li class="bartext"><b>For Domestic Services</b></li></a>
+        <a class="links" href="business.html" ><li class="bartext"><b>For Business Services</b></li></a>
+        <a class="links" href="awards_blog.html" ><li class="bartext"><b>Gallery</b></li></a>
+        <a class="links" href="contact.html"><li class="bartext"><b>Contact</b></li></a>
+        <a class="links" href="help_support.html" ><li class="bartext"><b>Help Support</b></li></a>
+    </ul>
+         <br> <br>
+
+         <div class="textanimate">
+                   <p><span id="cap" style="letter-spacing:0;"> &nbsp;r</span><span id="fog" style="letter-spacing:0;">e</span><span id="cap1" > &nbsp;p</span><span id="fog2" >orter &nbsp;</span></p>
+
+                <hr id="bt" style="height:2vh;background-color:crimson;">
+         </div>
+</body></html>

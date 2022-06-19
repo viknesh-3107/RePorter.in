@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RePorter</title>
+        <script type="text/javascript" src="RePorterJS.js"></script> 
+        <link rel="stylesheet" media="screen and (max-width: 450px)" href="C:\Users\Vignesh\Transport Logistics\mobiledeviceCSS.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px) and (min-width:450px)" href="C:\Users\Vignesh\Transport Logistics\smalldeviceCSS.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="C:\Users\Vignesh\Transport Logistics\RePorter.css">
+        <link rel="icon" href="https://drive.google.com/uc?export=view&id=1mRynLWP5s-Z6o5g8vZbcqk5nHoamXmna">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+        <style>
+          
+          div{
+                font-size:25px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            @media  only screen and (max-width:767px) {
+            #drop1{
+                color:rgb(0, 0, 0);
+                width:100%;
+                font-size: 25px;
+                border:none;
+                border-bottom:2px solid darkblue;
+                font-family: 'Times New Roman', Times, serif;
+                height:25px;padding-top:2%;outline:none; background-color:rgba(255, 255, 255, 0.701)
+            }
+            }
+            @media  only screen and (min-width:768px){
+                input{
+                width:80%;
+
+            }
+            
+            #drop1{
+                color:rgb(0, 0, 0);
+                width:100%;
+                font-size: 25px;
+                border-bottom:2px solid darkblue;
+                font-family: 'Times New Roman', Times, serif;
+                height:25px;padding-top:2%;outline:none; background-color:rgba(255, 255, 255, 0.701)
+            }
+            }
+           
+            #addressfrom,#addressto,#shipdate,#shiptime{
+                color:rgb(0, 0, 0);
+                font-size: 25px;padding-top:2%;outline:none; background-color:rgba(255, 255, 255, 0.701);
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            #name,#mobile{
+                color:rgb(0, 0, 0);
+                font-size: 25px;
+                width:100%;padding-top:2%;outline:none; background-color:rgba(255, 255, 255, 0.701);
+                font-family: 'Times New Roman', Times, serif;
+            }
+            #check{
+                accent-color:rgb(0, 0,255);
+                width:35px;padding-top:2%;outline:none; background-color:rgba(255, 255, 255, 0.701);
+                height:25px;
+            }
+            label{ padding-bottom:10px; font-size:25px; color:rgb(3, 3, 147);}
+            #petname{ height:25px; font-size:0.75em; color:blue; font-family: 'Times New Roman', Times, serif;outline:none;padding-top:2%;}
+            
+        </style>
+        <script src=
+        "https://smtpjs.com/v3/smtp.js">
+    </script>
+    </head> 
+    <body onload="tod()">
+       <div> 
+        <form action="#" method="post" target="_parent" id="form3" name="House Shifting">
+            <label for="name" >Customer Name : </label><br>
+            <input type="text" id="name" name="Customer Name" maxlength="50" placeholder="Ex: Karikalan" required></input><br><br>
+            <label for="mobile" >Contact Number : </label><br>
+            <input type="text" id="mobile" name="Customer Mobile Number" maxlength="50" placeholder="Ex: +919632587410" pattern="[+]{1}[0-9]{2}[0-9]{10}" required></input><br><br>
+           <label for="petname" >Pet Name :  </label>
+           <input type="text" id="petname" name="Pet Name" placeholder="Ex: Clifford, Ferdinand" required >  </input><br><br>
+            <label for="shipdate" >Shipping Date : </label>
+            <input type="date" name="Shifting Date" id="shipdate" required>  </input><br><br>
+            <label for="shiptime" >Shipping Time : </label><input type="time" id="shiptime" name="Shipping Time" required>  </input><br><br>
+            <label for="addressfrom">Your Address  : </label><br>
+            <textarea type="text" id="addressfrom" name="Your Address" rows="2" cols="50"  placeholder="Ex:4-1/9, Reddimaniyakaranoor, Elampillai, Salem-637502" required></textarea><br><br>
+            <label for="addressto">Shifting Address  : </label><br>
+            <textarea type="text" id="addressto" name="Shifting Address" rows="2" cols="50"  placeholder="Ex:4-52/8, Maruthinagar, Eastend, Salem-637502" required></textarea><br>
+            <input type="checkbox" id="check" required>Are you agree with our <a class="links" target="_parent" href="Terms and Conditions .html"><span id="terms">Terms & Conditions</span></a></input><br><br>
+            <input type="button" name="submit"  id="submit" value="Submit" onclick="detail('form3')"></input>
+            <input type="reset" name="reset" id="reset" value="Clear"></input>
+            <a href="packers_movers.html" target="_parent"><input type="button" name="reset" id="reset" value="Back"></input></a>
+            
+         </form>
+       </div>
+    </body>
+</html>

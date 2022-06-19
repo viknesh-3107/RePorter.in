@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Info</title>
+        <script type="text/javascript" src="RePorterJS.js"></script> 
+        <link rel="stylesheet" media="screen and (max-width: 450px)" href="C:\Users\Vignesh\Transport Logistics\mobiledeviceCSS.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px) and (min-width:450px)" href="C:\Users\Vignesh\Transport Logistics\smalldeviceCSS.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="C:\Users\Vignesh\Transport Logistics\RePorter.css">
+        <link rel="icon" href="https://drive.google.com/uc?export=view&id=1mRynLWP5s-Z6o5g8vZbcqk5nHoamXmna">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+        <style>
+            body{
+              background-color:rgb(235, 223, 223);
+              background-image:url(' ./Images/Background/WebBackGround.webp');
+              background-repeat:no-repeat;
+              background-size: cover; background-size: cover; font-family: "Open Sans", sans-serif;
+             }  
+             @media screen and (min-width: 768px){
+            img{
+                height:500px; width:1304px; margin-left:8%;
+            }
+             }
+             @media screen and (max-width: 767px){
+            img{
+                height:150px; width:100%; margin-left:0%;
+            }
+             }
+          </style>
+    </head>
+    <body>
+        <img class="logo" src="./Images/Logo and others/CompanyLogo.png" alt="porter" title="I'm Porter" ></img>
+       <p class="title">
+                 <b style="margin-right:3%;">Tamil Nadu's Largest Logistics Network </b><span id="hide"><br><br></span>
+                <button type="button" class="button"><b><a class="links" style="color:white;" href="sign_up.html">Sign Up</a></b></button>
+             <button type="button"  class="lbutton button"><b><a class="links" style="color:white;" href="login.html">Login</a></b></button></p>
+             <p id="hide" ><br><br></p>
+             <ul class="bar">
+              <a class="links" href="trans_log_1.html" > <li class="bartext"><b>Home</b></li></a>
+              <a class="links" href="packers_movers.html" ><li class="bartext"><b>For Domestic Services</b></li></a>
+              <a class="links" href="business.html" ><li class="bartext"><b>For Business Services</b></li></a>
+              <a class="links" href="awards_blog.html" ><li class="bartext"><b>Gallery</b></li></a>
+              <a class="links" href="contact.html"><li class="bartext"><b>Contact Support</b></li></a>
+              <a class="links" href="help_support.html" ><li class="bartext"><b>FAQ's</b></li></a>
+          </ul>
+         <br> <br>
+         <div class="hide1">
+         <img src="./Images/Logo and others/ContactMe.png" usemap="#contact"></img>
+         <map name="contact">
+            <area shape="rect" coords="638,177,819,357" alt="Message Us" title="Message Us" onclick="msg()">
+            <area shape="circle" coords="977,78,81" alt="Whatsapp Us" title="Whatsapp Us" onclick="whatsapp()">
+            <area shape="circle" coords="534,334,91" alt="Call Us" title="Call Us" href="#" onclick="callus()">
+            <area shape="circle" coords="674,85,62" alt="HeadQuaters" title="HeadQuaters" onclick="locations()">
+            <area shape="poly" coords="836,307,860,290,1015,290,1031,307,1058,323,1059,368,1058,416,1036,437,896,437,864,480,867,436,836,410,835,330" alt="Feedback" title="Feedback" href="#" onclick="feedback()">
+            <area shape="poly" coords="314,192,306,171,306,148,315,120,334,98,358,85,381,82,378,66,384,46,407,29,432,28,446,36,463,18,493,3,512,2,547,11,573,34,583,53,606,55,618,61,615,108,652,147,695,147,699,165,643,166,631,178,631,234,476,233,474,207,459,193,426,191,320,192" alt="Community" title="Community" href="#">
+            <area target="_parent" alt="Website" title="Website" href="trans_log_1.html" coords="74,423,66,404,70,382,85,370,96,361,103,348,118,347,130,343,145,339,158,328,171,312,176,292,180,279,180,253,195,240,207,235,222,231,238,231,253,233,264,237,273,244,282,251,293,262,301,282,304,292,319,295,337,301,363,319,372,337,379,361,378,391,361,416,339,433,321,438,209,436,114,438,92,436" shape="poly">
+            <area target="" alt="Mail" title="Mail" href="mailing.html"  coords="308,293,325,295,343,304,356,312,363,317,396,319,407,330,425,348,422,326,429,317,438,317,451,292,469,270,471,250,473,220,469,200,456,193,403,195,341,193,314,195,299,195,293,206,293,231,293,255" shape="poly">
+          </map>
+        </div>
+          <div id="hide" >
+          <div id="hide">
+              <div style="display:inline;width:50%;float:left;">
+            <img src="./Images/Logo and others/MCU.png" alt="Call Us" title="Call Us" href="#" onclick="callus()"></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Call Us</p>
+          </div>
+
+          <div style="display:inline;width:50%;float:right;">
+            <img src="./Images/Logo and others/MWU.png" alt="Whatsapp Us" title="Whatsapp Us" onclick="whatsapp()""></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Whatsapp Us</p>
+          </div>
+           </div>
+
+
+           <div id="hide" >
+          <div style="display:inline;width:50%;float:left;">
+            <img src="./Images/Logo and others/MMU.png" alt="Message Us" title="Message Us" onclick="msg()"></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Message Us</p>
+          </div>
+          <div style="display:inline;width:50%;float:right;">
+            <img src="./Images/Logo and others/MHQ.png" alt="HeadQuaters" title="HeadQuaters" onclick="locations()"></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Head Quaters</p>
+          </div></div>
+          
+
+          <div id="hide" >
+          <div style="display:inline;width:50%;float:left;">
+            <img src="./Images/Logo and others/MFB.png"  alt="Feedback" title="Feedback" href="#" onclick="feedback()"></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Feedback</p>
+          </div>
+          <div style="display:inline;width:50%;float:right;">
+            <img src="./Images/Logo and others/MCM.png" alt="Community" title="Community" href="#"></img>
+            <p style="text-align:center;font-weight:bold;font-size:1.2em;">Community</p>
+          </div>
+        </div>
+    </div>
+
+    <hr style="width:90%;">
+    <p style="text-align:center;">Copyrights © 2022 RePorter. All rights reserved.</p>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+     <script>
+     function sendEmail() {
+	Email.send({
+		Host: "smtp.elasticemail.com",
+		Username: "ebookskart2001@gmail.com",
+		Password: "1315A0B7744E215D67829269B791A083C173",
+		To: 'arasu.31.07.viknesh.01@gmail.com',
+		From: "ebookskart2001@gmail.com",
+		Subject: "You won internship opporunity !!!!",
+		Body: "Hi nandha kumaran S <br> we are received your invitation and we considered to give a opporunity to you at web develpment internship which was to starts at 30 june 2022. we are kindly waiting for your presence in our office on given venue.",
+	}).then(function (message) {
+		alert("mail sent successfully")
+        console.log(message);
+		});
+	}
+        </script>
+    </body>
+   
+</html>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10605.062440478756!2d76.98889503731284!3d11.079187412006982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7eb4b0be287%3A0x3a9dc9b0f4213b96!2sThudiyalur%20Rd%2C%20Vasantham%20Nagar%2C%20Saravanampatti%2C%20Coimbatore%2C%20Tamil%20Nadu%20641035!5e0!3m2!1sen!2sin!4v1654000977948!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
