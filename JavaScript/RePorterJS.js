@@ -130,7 +130,7 @@ function detail(forid){
     localStorage.name =form.elements[0].value;
     Email.send({
 //         SecureToken : "8d9c8e69-ce8a-4d1c-b654-8f4ac27692bd", 
-        SecureToken : "276a50fa-40d1-4b91-940f-aa24845ae15c",
+        SecureToken : "c4ffe5bb-e8c8-4f5f-8ed0-3e3ae3517515",
         To: prompt("Please enter your email address"),
         From: "reporter.helpteam@gmail.com",
         Subject: " Services Booked !!  ",
